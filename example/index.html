@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Wave Image</title>
+    <style>
+    #wrapper {
+      display: flex;
+    }
+    #left {
+      flex: 0 0 65%;
+    }
+    #right {
+      flex: 1;
+    }
+    .center{
+      width: 500px; margin: 0 auto;
+    }
+    </style>
+  </head>
+  <body style="text-align: center;">
+     <div>
+      <div class="center">
+        <h1>Wave Image</h1>
+      </div>
+      <div class="center">
+        <p>Convert Simple Image to Wave format Image</p>
+      </div>
+    </div>
+    <div class="center">
+        <section id="wrapper">
+        <div id="left">
+             <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/139px-Flag_of_Nepal.svg.png"></image>
+        </div>
+        <div id="right">
+            <wave key = 1 src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/139px-Flag_of_Nepal.svg.png"
+            width="600" height="900"></wave>
+        </div>
+    </section>
+    </div>
+      <script src="../wave.min.js"></script>
+  </body>
+</html>
