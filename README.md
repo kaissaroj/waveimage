@@ -5,7 +5,7 @@ Convert Simple Image to Wave format Image
 
 ## Setup
 
-Make sure you have the wave.min.js included in the end of body tag at html document.
+Make sure you have the wave.min.js included in before end of body tag at html document.
 
 ```html
 
